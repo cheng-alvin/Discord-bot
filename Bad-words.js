@@ -1,5 +1,6 @@
 //Bad words Databese
 const badword = [
+  "xxxxx",
   "4r5e",
   "5h1t",
   "5hit",
