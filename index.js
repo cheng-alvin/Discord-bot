@@ -1,7 +1,6 @@
 //Importing packages
 import Discord from "discord.js";
 import badword from "./Bad-words.js";
-import config from "./Config.js";
 import start from "./server.js";
 
 //Bot setup
@@ -44,4 +43,4 @@ client.on("messageCreate", (message) => {
 start();
 
 //Login bot with token in Config.js
-client.login(config.token);
+client.login("ODgyNzc5NDA2Nzk4NTU3MTg0.YTAWYw.CkFeMNryJ7y8YL0dJoin3pfGwwA");
