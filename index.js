@@ -35,6 +35,7 @@ client.on("messageCreate", (message) => {
       "Sorry I have found inappropriate word(s) in your message so I have deleted it posting inappropriate words can result in a ban!"
     );
   }
+
   //Go to youtube channel command
   if (message.content === "!channel") message.reply(goToYoutubeMessage);
 });
@@ -42,5 +43,5 @@ client.on("messageCreate", (message) => {
 //Start server
 start();
 
-//Login bot with token in Config.js
+//Login bot with token from discord dev portal
 client.login("ODgyNzc5NDA2Nzk4NTU3MTg0.YTAWYw.CkFeMNryJ7y8YL0dJoin3pfGwwA");
