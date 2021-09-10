@@ -2,6 +2,7 @@
 import Discord from "discord.js";
 import badword from "./Bad-words.js";
 import start from "./server.js";
+import config from "./config.js";
 
 //Bot setup
 const intents = new Discord.Intents(32767);
@@ -44,4 +45,4 @@ client.on("messageCreate", (message) => {
 start();
 
 //Login bot with token from discord dev portal
-client.login("ODgyNzc5NDA2Nzk4NTU3MTg0.YTAWYw.CkFeMNryJ7y8YL0dJoin3pfGwwA");
+client.login(config.token);
